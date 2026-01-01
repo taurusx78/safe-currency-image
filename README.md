@@ -18,11 +18,19 @@ pip install opencv-python numpy
 - `game.py`: 단일 이미지에 아이콘화(색상 축소 + 윤곽선) 실험용 스크립트
 
 ## 사용 방법
-1) `main.py` 안의 경로를 내 환경에 맞게 수정합니다.
+### 1) `main.py` 안의 경로를 내 환경에 맞게 수정합니다.
 - 입력: `currency/origin/{country}/{country}_{value}.jpg`
 - 출력: `currency/safe/.../{country}/{country}_{value}.png`
 
-2) 실행
+### 2) 실행
 ```bash
 python main.py
 ```
+
+### 3) 이미지 변환 결과
+#### [원본]
+<img width="222" height="100" alt="krw_10000" src="https://github.com/user-attachments/assets/2a56b71a-2223-4627-bbdd-da673f63acd2" />
+<br>
+
+#### [수정본]
+<img width="222" height="100" alt="krw_10000" src="https://github.com/user-attachments/assets/c7f088ba-33b0-4e8e-8842-76897bb2c940" />
